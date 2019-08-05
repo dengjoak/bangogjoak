@@ -8,8 +8,8 @@ export const CONTACT = {
 }
 
 export const PROJECT_LINKS = {
-  swish: "https://swish.is",
-  cosmo: "https://cosmoapp.io",
-  cryptofighters: "https://cryptofighters.io",
-  cotrader: "https://cotrader.com",
+  keyconstruction: "https://keyconstruction.no",
+  keyproperty: "https://keyproperty.no",
+  futurstore: "https://futurstore.no",
+  bamboorestaurant: "https://bamboorestaurant.no/",
 }

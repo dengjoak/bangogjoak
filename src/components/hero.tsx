@@ -36,8 +36,8 @@ const IconWrapper = styled.div`
 export const Hero = () => (
   <Wrapper>
     <div style={{ position: "absolute" }}>
-      <Title>Bang & Joak </Title>
-      <Subtitle>Consulting</Subtitle>
+      <Title>Bang & Joak Consulting </Title>
+      <Subtitle>Full-Stack Web Development</Subtitle>
       <IconWrapper>
         <HeroIcon icon="fab fa-github" link={LINKS.github} />
         <HeroIcon icon="fab fa-linkedin-in" link={LINKS.linkedin} />

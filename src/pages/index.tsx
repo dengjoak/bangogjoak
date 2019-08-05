@@ -1,22 +1,34 @@
 import React from "react"
-import styled from 'styled-components'
-import { Hero } from '../components/hero'
-import { ProjectItem } from '../components/content/project-item'
-import { PROJECT_LINKS, CONTACT } from '../consts'
+import styled from "styled-components"
+import { Hero } from "../components/hero"
+import { ProjectItem } from "../components/content/project-item"
+import { PROJECT_LINKS, CONTACT } from "../consts"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const swish = require('../images/swish.png')
-const cosmo = require('../images/cosmo.png')
-const cryptofighters = require('../images/cryptofighters.png')
-const cotrader = require('../images/cotrader.png')
+const keyconstruction = require("../images/keyconstruction.png")
+const keyproperty = require("../images/keyproperty.png")
+const futurstore = require("../images/futurstore.png")
+const bamboorestaurant = require("../images/bamboorestaurant.png")
 
 const projects = [
-  { name: 'swish', pic: swish, link: PROJECT_LINKS.swish },
-  { name: 'cosmo', pic: cosmo, link: PROJECT_LINKS.cosmo },
-  { name: 'cryptofighters', pic: cryptofighters, link: PROJECT_LINKS.cryptofighters },
-  // { name: 'cotrader', pic: cotrader, link: PROJECT_LINKS.cotrader },
+  {
+    name: "keyconstruction",
+    pic: keyconstruction,
+    link: PROJECT_LINKS.keyconstruction,
+  },
+  { name: "keyproperty", pic: keyproperty, link: PROJECT_LINKS.keyproperty },
+  {
+    name: "futurstore",
+    pic: futurstore,
+    link: PROJECT_LINKS.futurstore,
+  },
+  {
+    name: "bamboorestaurant",
+    pic: bamboorestaurant,
+    link: PROJECT_LINKS.bamboorestaurant,
+  },
 ]
 
 const ProjectList = styled.div`
@@ -25,14 +37,14 @@ const ProjectList = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 45px;
-`;
+`
 
 const EmailLink = styled.a`
   text-decoration: none;
   color: #fff;
-  font-family: 'Fira Mono', monospace;
+  font-family: "Fira Mono", monospace;
   width: 100%;
-`;
+`
 
 const IndexPage = () => (
   <Layout>
@@ -43,7 +55,7 @@ const IndexPage = () => (
         <ProjectItem pic={pic} link={link} />
       ))}
     </ProjectList>
-    <div style={{ width: '100%', textAlign: 'center', marginBottom: 75 }}>
+    <div style={{ width: "100%", textAlign: "center", marginBottom: 75 }}>
       <EmailLink href={`mailto://${CONTACT.email}`}>{CONTACT.email}</EmailLink>
     </div>
   </Layout>

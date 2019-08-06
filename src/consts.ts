@@ -8,6 +8,7 @@ export const CONTACT = {
 }
 
 export const PROJECT_LINKS = {
+  keyadvisor: "https://keyadvisor.no",
   keyconstruction: "https://keyconstruction.no",
   keyproperty: "https://keyproperty.no",
   futurstore: "https://futurstore.no",

@@ -7,12 +7,18 @@ import { PROJECT_LINKS, CONTACT } from "../consts"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const keyadvisor = require("../images/keyadvisor.png")
 const keyconstruction = require("../images/keyconstruction.png")
 const keyproperty = require("../images/keyproperty.png")
 const futurstore = require("../images/futurstore.png")
 const bamboorestaurant = require("../images/bamboorestaurant.png")
 
 const projects = [
+  {
+    name: "keyadvisor",
+    pic: keyadvisor,
+    link: PROJECT_LINKS.keyadvisor,
+  },
   {
     name: "keyconstruction",
     pic: keyconstruction,

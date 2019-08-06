@@ -7,11 +7,11 @@ import { PROJECT_LINKS, CONTACT } from "../consts"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const keyadvisor = require("../images/keyadvisor.png")
-const keyconstruction = require("../images/keyconstruction.png")
-const keyproperty = require("../images/keyproperty.png")
-const futurstore = require("../images/futurstore.png")
-const bamboorestaurant = require("../images/bamboorestaurant.png")
+const keyadvisor = require("../images/key-advisor.png")
+const keyconstruction = require("../images/key-construction.png")
+const keyproperty = require("../images/key-property.png")
+const futurstore = require("../images/futur-store.png")
+const bamboorestaurant = require("../images/bamboo-restaurant.png")
 
 const projects = [
   {

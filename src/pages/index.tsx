@@ -48,7 +48,10 @@ const EmailLink = styled.a`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Bang & Joak Consulting"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <Hero />
     <ProjectList>
       {projects.map(({ pic, link }) => (

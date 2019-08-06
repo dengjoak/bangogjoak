@@ -28,7 +28,12 @@ const Image = ({ imgName, style }: any) => (
     `}
     render={data => {
       console.log(data)
-      return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={style} />
+      return (
+        <Img
+          fluid={data.placeholderImage.childImageSharp.fluid}
+          style={style}
+        />
+      )
     }}
   />
 )

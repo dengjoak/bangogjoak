@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const HeaderItem = styled.span`
   font-family: Roboto;
   font-size: 14px;
-  color: #FFF;
+  color: #ffff;
   letter-spacing: 1.25px;
   text-align: center;
   line-height: 16px;

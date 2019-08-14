@@ -4,7 +4,6 @@ import { Title } from "./typography/title"
 import { Subtitle } from "./typography/subtitle"
 import { HeroIcon } from "./content/hero-icon"
 import { LINKS } from "../consts"
-import { FooterItem } from "./typography/footer-item"
 
 const Wrapper = styled.div`
   margin: 0 auto;
